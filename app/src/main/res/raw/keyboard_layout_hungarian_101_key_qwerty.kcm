@@ -12,7 +12,7 @@ map key 7 6
 map key 8 7
 map key 9 8
 map key 10 9
-map key 11 GRAVE
+map key 11 0
 map key 12 MINUS
 map key 13 EQUALS
 map key 16 Q
@@ -38,7 +38,7 @@ map key 37 K
 map key 38 L
 map key 39 SEMICOLON
 map key 40 APOSTROPHE
-map key 41 0
+map key 41 GRAVE
 map key 43 BACKSLASH
 map key 44 Z
 map key 45 X
@@ -135,12 +135,12 @@ key 9 {
   ralt: '\u00b4'
 }
 
-key GRAVE {
+key 0 {
   label: '0'
   base: '0'
-  shift: none
+  shift: '\u00a7'
   capslock: '0'
-  ralt: '\u00a7'
+  capslock+shift: '\u00a7'
 }
 
 key MINUS {
@@ -371,7 +371,7 @@ key APOSTROPHE {
   ralt: '\u00df'
 }
 
-key 0 {
+key GRAVE {
   label: '0'
   base: '0'
   shift: '\u002d'
