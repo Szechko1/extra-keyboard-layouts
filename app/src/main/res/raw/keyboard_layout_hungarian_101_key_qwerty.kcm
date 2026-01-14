@@ -13,7 +13,7 @@ map key 8 7
 map key 9 8
 map key 10 9
 map key 11 0
-map key 12 MINUS
+map key 12 SLASH
 map key 13 EQUALS
 map key 16 Q
 map key 17 W
@@ -49,7 +49,7 @@ map key 49 N
 map key 50 M
 map key 51 COMMA
 map key 52 PERIOD
-map key 53 SLASH
+map key 53 MINUS
 map key 57 SPACE
 map key 86 PLUS
 map key 95 NUMPAD_COMMA
