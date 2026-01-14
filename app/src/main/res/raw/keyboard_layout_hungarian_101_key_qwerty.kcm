@@ -144,11 +144,12 @@ key 0 {
 }
 
 key MINUS {
-  label: 'u'
-  base: 'u'
-  shift: 'U'
-  capslock: 'U'
-  capslock+shift: 'u'
+  label: '\u00fc'
+  base: '\u00fc'
+  shift: '\u00dc'
+  capslock: '\u00dc'
+  capslock+shift: '\u00fc'
+  ralt: '\u0308'
 }
 
 key EQUALS {
