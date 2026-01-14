@@ -1,5 +1,5 @@
 <resources>
 	<string name="app_name">Magyar Billentyűzet</string>
 	<string name="keyboard_layouts_label">Magyar Billentyűzet</string>
-	<string name="keyboard_layout_hungarian_101_key_qwerty">Hungarian 101-key QWERTY</string>
+	<string name="keyboard_layout_hungarian_101_key_qwerty">Hungarian Glide Layout</string>
 </resources>
