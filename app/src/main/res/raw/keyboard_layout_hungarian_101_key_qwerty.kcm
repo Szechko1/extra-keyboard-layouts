@@ -20,7 +20,7 @@ map key 17 W
 map key 18 E
 map key 19 R
 map key 20 T
-map key 21 Y
+map key 21 Z
 map key 22 U
 map key 23 I
 map key 24 O
@@ -40,7 +40,7 @@ map key 39 SEMICOLON
 map key 40 APOSTROPHE
 map key 41 GRAVE
 map key 43 BACKSLASH
-map key 44 Z
+map key 44 Y
 map key 45 X
 map key 46 C
 map key 47 V
