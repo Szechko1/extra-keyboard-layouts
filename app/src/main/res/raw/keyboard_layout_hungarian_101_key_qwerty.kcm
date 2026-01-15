@@ -204,11 +204,11 @@ key T {
 }
 
 key Y {
-  label: 'z'
-  base: 'z'
-  shift: 'Z'
-  capslock: 'Z'
-  capslock+shift: 'z'
+  label: 'y'
+  base: 'y'
+  shift: 'Y'
+  capslock: 'Y'
+  capslock+shift: 'y'
 }
 
 key U {
@@ -390,11 +390,11 @@ key BACKSLASH {
 }
 
 key Z {
-  label: 'y'
-  base: 'y'
-  shift: 'Y'
-  capslock: 'Y'
-  capslock+shift: 'y'
+  label: 'z'
+  base: 'z'
+  shift: 'Z'
+  capslock: 'Z'
+  capslock+shift: 'z'
   ralt: '\u003e'
 }
 
@@ -449,7 +449,7 @@ key M {
   shift: 'M'
   capslock: 'M'
   capslock+shift: 'm'
-  ralt: '\u003c'
+  ralt: '\u03bc'
 }
 
 key COMMA {
