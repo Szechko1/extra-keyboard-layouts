@@ -3,10 +3,10 @@
 # Hungarian 101-key QWERTY - Glide Layout
 type OVERLAY
 
-map key 2 4
+map key 2 1
 map key 3 2
 map key 4 3
-map key 5 1
+map key 5 4
 map key 6 5
 map key 7 6
 map key 8 7
@@ -57,9 +57,9 @@ map key 95 NUMPAD_COMMA
 key 1 {
   label: '1'
   base: '1'
-  shift: '\u0027'
+  shift: '\u0021'
   capslock: '1'
-  capslock+shift: '\u0027'
+  capslock+shift: '\u0021'
   ralt: '\u007e'
 }
 
@@ -84,9 +84,9 @@ key 3 {
 key 4 {
   label: '4'
   base: '4'
-  shift: '\u0021'
+  shift: '\u0027'
   capslock: '4'
-  capslock+shift: '\u0021'
+  capslock+shift: '\u0027'
   ralt: '\u02d8'
 }
 
