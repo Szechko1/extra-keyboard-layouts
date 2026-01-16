@@ -243,9 +243,10 @@ key O {
 key P {
   label: 'p'
   base: 'p'
-  shift: '\u0027'
+  shift: 'P'
   capslock: 'P'
-  capslock+shift: '\u0027'
+  capslock+shift: 'p'
+  ralt: '\u0027'
 }
 
 key LEFT_BRACKET {
