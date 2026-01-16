@@ -57,9 +57,9 @@ map key 95 NUMPAD_COMMA
 key 1 {
   label: '1'
   base: '1'
-  shift: '\u0027'
+  shift: '''
   capslock: '1'
-  capslock+shift: '\u0027'
+  capslock+shift: '''
   ralt: '\u007e'
 }
 
