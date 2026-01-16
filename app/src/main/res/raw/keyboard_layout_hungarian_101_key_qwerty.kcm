@@ -61,6 +61,7 @@ key 1 {
   capslock: '1'
   capslock+shift: '\u0027'
   ralt: '\u007e'
+  ralt+shift: '\u0027'
 }
 
 key 2 {
