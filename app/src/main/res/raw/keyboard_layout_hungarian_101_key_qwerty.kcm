@@ -144,12 +144,18 @@ key 9 {
   ralt: '\u00b4'
 }
 
+# Measured on a 2025 MatePad Pro with the NearLink Glide keyboard: this
+# overlay's character definitions are ignored there, under Gboard as well
+# as Celia. Only the scan-code mappings above take effect, and characters
+# come from the device's own table, where KEYCODE_0 and KEYCODE_GRAVE both
+# yield O-umlaut when shifted. Setting "shift: none" here changed nothing,
+# so the section sign is kept for devices that do honour this section.
 key 0 {
   label: '0'
   base: '0'
-  shift: none
+  shift: '\u00a7'
   capslock: '0'
-  capslock+shift: none
+  capslock+shift: '\u00a7'
 }
 
 key MINUS {
