@@ -147,9 +147,9 @@ key 9 {
 key 0 {
   label: '0'
   base: '0'
-  shift: '\u00a7'
+  shift: none
   capslock: '0'
-  capslock+shift: '\u00a7'
+  capslock+shift: none
 }
 
 key MINUS {
