@@ -1,8 +1,16 @@
 # License: MIT
 
-# Hungarian 101-key QWERTY - Glide Layout
+# Hungarian QWERTZ - Glide Layout
 type OVERLAY
 
+# The Glide keyboard has no dedicated 0/section key left of "1", so the
+# physical Esc key (scan code 1) takes its place. Remapping the SCAN CODE to
+# the GRAVE key code is what makes this work: KEYCODE_ESCAPE is a system
+# navigation key that the framework consumes before any character lookup
+# happens, so defining characters under "key ESCAPE" has no effect. The
+# scan-code map below is applied ahead of the device key layout, so Esc never
+# becomes KEYCODE_ESCAPE in the first place.
+map key 1 GRAVE
 map key 2 1
 map key 3 2
 map key 4 3
@@ -377,9 +385,9 @@ key APOSTROPHE {
 key GRAVE {
   label: '0'
   base: '0'
-  shift: '\u002d'
+  shift: '\u00a7'
   capslock: '0'
-  capslock+shift: '\u002d'
+  capslock+shift: '\u00a7'
 }
 
 key BACKSLASH {
